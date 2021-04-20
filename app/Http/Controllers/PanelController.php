@@ -13,7 +13,7 @@ class PanelController extends Controller
 
     public function inicio()
     {
-        // echo "holas";
-        return view('panel.inicio');
+        echo "holas";
+        // return view('panel.inicio');
     }
 }

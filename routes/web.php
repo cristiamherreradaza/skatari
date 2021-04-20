@@ -20,7 +20,7 @@ use Illuminate\Support\Facades\Route;
     return view('home');
 });*/
 
-Route::get('/', 'SocialController@inicio');
+Route::get('/', 'PanelController@inicio');
 // Route::get('/', 'home');
 
 Auth::routes();

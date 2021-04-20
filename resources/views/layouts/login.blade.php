@@ -4,7 +4,7 @@
 	<!--begin::Head-->
 	<head>
 		<meta charset="utf-8" />
-		<title>Ingreso</title>
+		<title>FORMULARIO INGRESO</title>
 		<meta name="description" content="Login page example" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 		<link rel="canonical" href="https://keenthemes.com/metronic" />
@@ -40,7 +40,7 @@
 					<div class="d-flex flex-column-fluid flex-column justify-content-between py-9 px-7 py-lg-13 px-lg-35">
 						<!--begin::Logo-->
 						<a href="#" class="text-center pt-2">
-							<img src="{{ asset('assets/media/logos/logo.png') }}" class="max-h-75px" alt="" />
+							<img src="{{ asset('assets/media/logo.png') }}" class="max-h-75px" alt="" />
 						</a>
 						<!--end::Logo-->
 						<!--begin::Aside body-->
@@ -60,7 +60,7 @@
 						</div>
 						<!--end::Aside body-->
 						<!--begin: Aside footer for desktop-->
-						<div class="text-center">
+						{{-- <div class="text-center">
 							<button type="button" class="btn btn-light-primary font-weight-bolder px-8 py-4 my-3 font-size-h6">
 							<span class="svg-icon svg-icon-md">
 								<!--begin::Svg Icon | path:assets/media/svg/social-icons/google.svg-->
@@ -72,7 +72,7 @@
 								</svg>
 								<!--end::Svg Icon-->
 							</span>Sign in with Google</button>
-						</div>
+						</div> --}}
 						<!--end: Aside footer for desktop-->
 					</div>
 					<!--end: Aside Container-->
@@ -82,13 +82,15 @@
 				<div class="content order-1 order-lg-2 d-flex flex-column w-100 pb-0" style="background-color: #B1DCED;">
 					<!--begin::Title-->
 					<div class="d-flex flex-column justify-content-center text-center pt-lg-40 pt-md-5 pt-sm-5 px-lg-0 pt-5 px-7">
-						<h3 class="display4 font-weight-bolder my-7 text-dark" style="color: #986923;">Amazing Wireframes</h3>
-						<p class="font-weight-bolder font-size-h2-md font-size-lg text-dark opacity-70">User Experience &amp; Interface Design, Product Strategy
-						<br />Web Application SaaS Solutions</p>
+						<h3 class="display4 font-weight-bolder my-7 text-dark" style="color: #986923;">SISAKATARI</h3>
+						<p class="font-weight-bolder font-size-h2-md font-size-lg text-dark opacity-70">
+							Sistema para el registro
+							de denuncias
+						</p>
 					</div>
 					<!--end::Title-->
 					<!--begin::Image-->
-					<div class="content-img d-flex flex-row-fluid bgi-no-repeat bgi-position-y-bottom bgi-position-x-center" style="background-image: url({{ asset('assets/media/svg/illustrations/login-visual-2.svg') }});"></div>
+					<div class="content-img d-flex flex-row-fluid bgi-no-repeat bgi-position-y-bottom bgi-position-x-center" style="background-image: url({{ asset('assets/media/bannerSistema.png') }});"></div>
 					<!--end::Image-->
 				</div>
 				<!--end::Content-->
