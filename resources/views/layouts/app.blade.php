@@ -6,7 +6,7 @@
 	<head>
 		<meta charset="utf-8" />
 		@yield('metadatos')
-		<title>ELISA</title>
+		<title>SISAKATARI</title>
 		<meta name="description" content="Base form control examples" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 		<link rel="canonical" href="https://keenthemes.com/metronic" />
@@ -37,7 +37,7 @@
 		<div id="kt_header_mobile" class="header-mobile align-items-center header-mobile-fixed">
 			<!--begin::Logo-->
 			<a href="index.html">
-				<img alt="Logo" src="{{ asset('assets/media/logos/logo-light.png') }}" />
+				<img alt="Logo" src="{{ asset('assets/media/titulo.png') }}" />
 			</a>
 			<!--end::Logo-->
 			<!--begin::Toolbar-->
@@ -80,7 +80,7 @@
 					<div class="brand flex-column-auto" id="kt_brand">
 						<!--begin::Logo-->
 						<a href="index.html" class="brand-logo">
-							<img alt="Logo" src="{{ asset('assets/media/logos/logo-light.png') }}" />
+							<img alt="Logo" src="{{ asset('assets/media/titulo.png') }}" />
 						</a>
 						<!--end::Logo-->
 						<!--begin::Toggle-->

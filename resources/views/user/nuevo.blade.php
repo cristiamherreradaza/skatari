@@ -34,17 +34,15 @@
 
                         <div class="col-md-2">
                             <div class="form-group">
-                                <label for="exampleInputPassword1">Ap Paterno
-                                    <span class="text-danger">*</span></label>
-                                <input type="text" class="form-control" id="ap_paterno" name="ap_paterno" required />
+                                <label for="exampleInputPassword1">Ap Paterno</label>
+                                <input type="text" class="form-control" id="ap_paterno" name="ap_paterno" />
                             </div>
                         </div>
 
                         <div class="col-md-2">
                             <div class="form-group">
-                                <label for="exampleInputPassword1">Ap materno
-                                    <span class="text-danger">*</span></label>
-                                <input type="text" class="form-control" id="ap_materno" name="ap_materno" required />
+                                <label for="exampleInputPassword1">Ap materno</label>
+                                <input type="text" class="form-control" id="ap_materno" name="ap_materno" />
                             </div>
                         </div>
 
@@ -59,8 +57,7 @@
                         <div class="col-md-2">
                             <div class="form-group">
                                 <label for="exampleSelect1">Departamento <span class="text-danger">*</span></label>
-                                <select class="form-control" id="ciudad" name="ciudad" onchange="canbiaDepartamento()">
-                                    <option value="">Seleccione</option>
+                                <select class="form-control" id="ciudad" name="ciudad">
                                     <option value="La Paz">La Paz</option>
                                     <option value="Cochabamba">Cochabamba</option>
                                     <option value="Santa Cruz">Santa Cruz</option>
@@ -88,8 +85,7 @@
                         <div class="col-md-2">
                             <div class="form-group">
                                 <label for="exampleSelect1">Estado Civil <span class="text-danger">*</span></label>
-                                <select class="form-control" id="estado_civil" name="estado_civil" onchange="canbiaDepartamento()">
-                                    <option value="">Seleccione</option>
+                                <select class="form-control" id="estado_civil" name="estado_civil">
                                     <option value="Soltero">Soltero</option>
                                     <option value="Casado">Casado</option>
                                     <option value="Divorciado">Divorciado</option>
@@ -101,8 +97,7 @@
                         <div class="col-md-2">
                             <div class="form-group">
                                 <label for="exampleSelect1">Genero <span class="text-danger">*</span></label>
-                                <select class="form-control" id="genero" name="genero" onchange="canbiaDepartamento()">
-                                    <option value="">Seleccione</option>
+                                <select class="form-control" id="genero" name="genero">
                                     <option value="Hombre">Hombre</option>
                                     <option value="Mujer">Mujer</option>
                                     <option value="Otro">Otro</option>
@@ -121,26 +116,26 @@
                         <div class="col-md-2">
                             <div class="form-group">
                                 <label for="exampleInputPassword1">Celular(es)
-                                <span class="text-danger">*</span></label>
-                                <input type="text" class="form-control" id="celulares" name="celulares" required />
+                                </label>
+                                <input type="text" class="form-control" id="celulares" name="celulares" />
                             </div>
                         </div>
 
                         <div class="col-md-4">
                             <div class="form-group">
                                 <label for="exampleInputPassword1">Direccion
-                                    <span class="text-danger">*</span></label>
-                                <input type="text" class="form-control" id="direccion" name="direccion" required />
+                                    </label>
+                                <input type="text" class="form-control" id="direccion" name="direccion" />
                             </div>
                         </div>
 
                     </div>
 
                     <div class="row">
-
+                        
                         <div class="col-md-3">
-                            <div class="form-group">
-                                <label for="exampleSelect1">Perfil <span class="text-danger">*</span></label>
+                        <div class="form-group">
+                                <label fo r="exampleSelect1">Perfil <span class="text-danger">*</span></label>
                                 <select class="form-control" id="perfil" name="perfil">
                                     <option value="Administrador">Administrador</option>
                                     <option value="Encargado">Abogado</option>
@@ -160,17 +155,8 @@
                         <div class="col-md-4">
                             <div class="form-group">
                                 <label for="exampleSelect1">Oficina <span class="text-danger">*</span></label>
-                                <select class="form-control" id="departamento" name="departamento" onchange="canbiaDepartamento()">
+                                <select class="form-control" id="departamento" name="departamento">
                                     <option value="">Seleccione</option>
-                                    <option value="La Paz">La Paz</option>
-                                    <option value="Cochabamba">Cochabamba</option>
-                                    <option value="Santa Cruz">Santa Cruz</option>
-                                    <option value="Oruro">Oruro</option>
-                                    <option value="Tarija">Tarija</option>
-                                    <option value="Sucre">Sucre</option>
-                                    <option value="Potosi">Potosi</option>
-                                    <option value="Beni">Beni</option>
-                                    <option value="Pando">Pandoa</option>
                                 </select>
                             </div>
                         </div>
@@ -217,7 +203,7 @@
             if ($("#formularioPersona")[0].checkValidity()) {
 
                 $("#formularioPersona").submit();
-                Swal.fire("Excelente!", "Se guardo el distrito!", "success");
+                Swal.fire("Excelente!", "Se guardo la persona!", "success");
 
             }else{
                 $("#formularioPersona")[0].reportValidity();
