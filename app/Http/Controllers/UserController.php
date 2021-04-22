@@ -36,7 +36,7 @@ class UserController extends Controller
 
     public function nuevo()
     {
-        return view('user.nuevo')->with(compact('usuarios'));        			
+        return view('user.nuevo');        			
     }
 
     public function guarda(Request $request)
@@ -68,10 +68,5 @@ class UserController extends Controller
     {
         $datosUsuario = User::findOrfail($id);
         return view('user.nuevo')->with(compact('datosUsuario'));                   
-    }
-
-    public function formDenuncia(Request $request)
-    {
-        
     }
 }

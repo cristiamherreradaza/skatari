@@ -16,4 +16,9 @@ class PanelController extends Controller
         echo "holas";
         // return view('panel.inicio');
     }
+
+    public function formularioDenuncia(Request $request)
+    {
+        return view('panel.formularioDenuncia');
+    }
 }

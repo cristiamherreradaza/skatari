@@ -40,3 +40,6 @@ Route::post('User/ajaxOtb', 'UserController@ajaxOtb');
 Route::post('User/guarda', 'UserController@guarda');
 Route::get('User/ajax_listado', 'UserController@ajax_listado');
 Route::get('User/edita/{id}', 'UserController@edita');
+
+// rutas temporales
+Route::get('Panel/formularioDenuncia', 'PanelController@formularioDenuncia');
